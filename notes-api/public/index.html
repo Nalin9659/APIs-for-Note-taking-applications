@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Notes App</h2>
+
+         <!--Search bar-->
+         <input type="text" id="search-bar" placeholder="Search notes..."> 
+
+
+        <!--creating a form-->
+        <form id="notes-app ">
+            <input type="text" id="note-title" placeholder="title" required>
+            <textarea id="note-content" placeholder="Write your noyes here..." required></textarea>
+            <button id="button">Submit</button>
+        </form>
+
+        <!--Notes List-->
+        <div id="notes-container"></div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
