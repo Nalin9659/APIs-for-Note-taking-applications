@@ -2,7 +2,7 @@
 
 Description
 
-Alightweight, effiecient, and scalable API for managing and storing notes. This project provides a robust backend solutions for note-taking applications, ensuring data presistence, CRUD operations, and seamless integrations with modern frontend framework.
+A lightweight, effiecient, and scalable API for managing and storing notes. This project provides a robust backend solutions for note-taking applications, ensuring data presistence, CRUD operations, and seamless integrations with modern frontend framework.
 The applicaton is built with a focus on performance and user-centric design, providing developers with a foundation for integration note-taking functionality into their projects.
 
 
@@ -20,7 +20,7 @@ Installation:
 
 * Follow these steps to set up the project locally:
 
-  1. Clone the Repository: Git clone <url>
+  1. Clone the Repository: Git clone https://github.com/Nalin9659/APIs-for-Note-taking-applications.git
   2. Navigate to the Project Directory: cd notes-api
   3. Install Dependencies: npm install
   4. Configure Environment variable: create a .env file and configure necessary 
@@ -48,7 +48,7 @@ Run the Application: npm start
 
   1. Fork the Repository: Click the "FORK" button at the top of this repository.
   2. Clone your Fork:
-     - git clone <Url>
+     - git clone https://github.com/Nalin9659/APIs-for-Note-taking-applications.git
   3. Create a new branch:
      - git checked -b feature/new-feature
   4. commit changes: Add meaningful commit messages:
