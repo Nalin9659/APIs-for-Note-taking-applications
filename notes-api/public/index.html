@@ -3,29 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="A dynamic note-taking application with features like searching, creating, and managing notes.">
+    <meta name="author" content="Your Name">
+    <title>Advanced Notes App</title>
     <link rel="stylesheet" href="index.css">
+    
 </head>
 <body>
     <div id="container">
-        <h2>Notes App</h2>
+        <h2>📝 Advanced Notes App</h2>
 
-         <!--Search bar-->
-         <input type="text" id="search-bar" placeholder="Search notes..."> 
+        <!-- Search Bar -->
+        <input 
+            type="text" 
+            id="search-bar" 
+            placeholder="🔍 Search your notes..." 
+            aria-label="Search notes" 
+        > 
 
-
-        <!--creating a form-->
-        <form id="notes-app ">
-            <input type="text" id="note-title" placeholder="title" required>
-            <textarea id="note-content" placeholder="Write your noyes here..." required></textarea>
-            <button id="button">Submit</button>
+        <!-- Note Creation Form -->
+        <form id="notes-app">
+            <input 
+                type="text" 
+                id="note-title" 
+                placeholder="Enter note title" 
+                required 
+                aria-label="Note Title"
+            >
+            <textarea 
+                id="note-content" 
+                placeholder="Write your notes here..." 
+                required 
+                aria-label="Note Content"
+            ></textarea>
+            <button id="button" type="submit">Add Note</button>
         </form>
 
-        <!--Notes List-->
-        <div id="notes-container"></div>
+        <!-- Notes List -->
+        <section id="notes-container" aria-live="polite" aria-label="Notes List">
+            <!-- Dynamic notes will appear here -->
+        </section>
     </div>
 
     <script src="app.js"></script>
-
 </body>
 </html>
