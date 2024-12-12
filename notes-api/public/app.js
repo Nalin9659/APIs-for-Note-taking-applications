@@ -1,13 +1,13 @@
 const API_URL = "http://localhost:3001/notes";
 
-// fethching all notes and display them.
+// fethching all notes and display them
 async function fetchNotes(){
     const response= await fetch(API_URL);
     const notes = await response.json();
     renderedNotes(notes);
 }
 
-// render the notes on the pages.
+// render the notes on the pages
 
 function renderedNotes(notes){
     const notesContainer = document.getElementById("notes-container");
@@ -22,7 +22,7 @@ function renderedNotes(notes){
         notesContainer.appendChild(noteDiv);
     });
 
-    // Adding new note.
+    // Adding new note
 
     document.getElementById("note-form").addEventListener("submit", async(e)=>{
         e.preventDefault();
