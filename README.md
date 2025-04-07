@@ -2,7 +2,7 @@
 
 
 
-# Note-taking-applications & API
+# Note applications & API
 
 Description
 
